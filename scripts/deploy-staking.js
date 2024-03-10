@@ -7,7 +7,9 @@
 const hre = require("hardhat");
 
 async function main() {
-  const stakingContract = await hre.ethers.deployContract("Staking");
+  const stakingContract = await hre.ethers.deployContract("Staking", [
+    "0xfec91a4ffbe5232b1cf778f226f1c0e2b0a9bf6e",
+  ]);
 
   await stakingContract.waitForDeployment();
 
