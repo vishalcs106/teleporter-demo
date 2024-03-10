@@ -3,7 +3,7 @@ pragma solidity 0.8.20;
 
 import "./ITeleporterReceiver.sol";
 import "./ITeleporterMessenger.sol";
-import "./Action.sol";
+import "./Actions.sol";
 
 contract Rewards {
     ITeleporterMessenger public immutable teleporterMessenger =
