@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# Teleporter Demo Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic example or teleporter implementation. It comes with a 3 contracts, and deployment scripts.
 
-Try running some of the following tasks:
+MyNft.sol and Staking.sol should be deployed on a subnet, preferrable Dispatch subnet. Dispatch subnet was created especially for teleporter, it contains the necessary contracts and registry deployed.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Rewards.sol has to be deployed on C-Chain on fuji network.
