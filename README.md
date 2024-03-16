@@ -1,6 +1,10 @@
 # Teleporter Demo Project
 
-This project demonstrates a basic example or teleporter implementation. It comes with a 3 contracts, and deployment scripts.
+This project demonstrates a basic example or teleporter implementation. It comes with 3 contracts and deployment scripts.
+
+MyNft.sol - Simple ERC721 contract
+Staking.sol - Contract used to stake ERC721 tokens, this contarct sends the message
+Rewards.sol - Contract used to reward stakers on C-Chain, this receives the messsage
 
 MyNft.sol and Staking.sol should be deployed on a subnet, preferrably Dispatch subnet. Dispatch subnet was created especially for teleporter, it contains the necessary contracts and registry deployed.
 
